@@ -42,6 +42,9 @@ a:hover {
   text-decoration: none;
 }
 
+#intro ul li {
+  display: inline;
+}
 img {
   width: 100%;
 }
@@ -251,4 +254,9 @@ footer ul {
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
+}
+
+.highlight {
+  color: var(--hotmag);
+  font-size: 24px;
 }
